@@ -21,3 +21,15 @@ VALUES
 ('Fluffy', 'aggressive'),
 ('Noodles', 'impacient'),
 ('Rusty', 'passionate');
+
+INSERT INTO habitats(name, climate, temperature)
+VALUES
+('desert', 'dry', 100),
+('forrest', 'haunted', 70),
+('mountain', 'icy', 30);
+
+INSERT INTO lives(monster, habitat)
+VALUES
+('Fluffy', 'desert'),
+('Noodles', 'forrest'),
+('Rusty', 'mountain');
